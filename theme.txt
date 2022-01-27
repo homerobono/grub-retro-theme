@@ -1,0 +1,60 @@
+# Global properties
+title-text: ""
+desktop-image: "background.png"
+desktop-color: "#183830"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Boot menu
++ boot_menu {
+  left = 551
+  top = 316
+  height = 36%
+  width = 384
+  item_padding = 0
+  item_height = 28
+  item_spacing = 20
+  item_icon_space = 20
+  item_color = "#a8a888"
+  item_pixmap_style = "item_*.png"
+  selected_item_color = "#ffffff"
+  selected_item_pixmap_style = "selected_item_*.png"
+  icon_width = 52
+  icon_height = 28
+}
+
+# Countdown message
++ label {
+  left = 0
+  top = 98%-70
+  width = 100%
+  align = "center"
+  id = "__timeout__"
+  # DE
+  # text = "Start in %d Sekunden."
+  # EN
+  text = "Booting in %d seconds"
+  # ES
+  # text = "Arranque en %d segundos"
+  # FR
+  # text = "Démarrage automatique dans %d secondes"
+  # IT
+  # text = "Avvio in %d secondi"
+  # NO
+  # text = "Starter om %d sekunder"
+  # PT
+  # text = "Arranque automático dentro de %d segundos"
+  # RU
+  # text = "Загрузка выбранного пункта через %d сек."
+  # TR
+  # text = "%d saniye sonra önyükleme başlayacak."
+  # UA
+  # text = "Автоматичне завантаження розпочнеться через %d сек."
+  # zh_CN
+  # text = "在 %d 内启动"
+  color = "#687060"
+}
