@@ -1,25 +1,11 @@
-## Fallout GRUB theme
+# grub-retro-theme
+Retro pixelated theme for GRUB
 
-Supported languages: Chinese (simplified), English, French, German, Italian, Norwegian, Portuguese, Russian, Spanish, Turkish, Ukrainian
+## Installation
+1. Clone or download this repo
+2. Enter the directory and run `bash install.sh`
 
-![](https://i.imgur.com/7LUYwTn.gif)
+## Credits
+Background image by [@wenchuanzhao](https://pin.it/3UJkhzi)
 
----
-
-### Installation / update
-
-1. **Secure way:**
-    - Download install script:  
-    `wget -P /tmp https://github.com/shvchk/fallout-grub-theme/raw/master/install.sh`
-    - Review install script at `/tmp/install.sh`
-    - Run it: `bash /tmp/install.sh`
-
-2. **Easier, less secure way** — just download and run install script:  
-    `wget -O - https://github.com/shvchk/fallout-grub-theme/raw/master/install.sh | bash`
-
----
-
-### See also
-
-- [Poly light GRUB theme](https://github.com/shvchk/poly-light)
-- [Poly dark GRUB theme](https://github.com/shvchk/poly-dark)
+Install script adapted from [Fallout Grub theme](https://github.com/shvchk/fallout-grub-theme) by [Andrei Shevchuk](https://github.com/shvchk)
